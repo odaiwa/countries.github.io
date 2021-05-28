@@ -1,0 +1,42 @@
+table {
+    margin: auto;
+    text-align: center;
+}
+tr{
+    opacity: 0.7;
+}
+tr:hover{
+    opacity: 1;
+}
+img{
+    width: 20px;
+    height: 12px;
+}
+body{
+    background-image: url("assets/brett-zeck-eyfMgGvo9PA-unsplash.jpg");
+    background-size: 100%;
+}
+input{
+    margin: 10px;
+}
+
+#title-div{
+    margin: 5px;
+    border-radius: 5px;
+    text-align: center;
+    border: 1px solid black;
+    background-image: url("assets/vladislav.jpg");
+    background-size: cover; 
+}
+
+#specific-country{
+    text-align: center;
+    width: 200px;
+    display: inline-block;
+}
+#menu>button{
+    width: 150px;
+}
+#menu{
+    margin: 5px;
+}

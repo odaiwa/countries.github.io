@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="jquery-3.6.0.js"></script>
+    <script defer src="main.js"></script>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="shortcut icon" href="assets/favicon.png">
+    <title>Countries</title>
+</head>
+<body>
+    <div id="title-div">
+        <h1>Countrieeeeeeessss</h1>
+    </div>
+    
+    <div class="group" id="menu">
+        <input id="specific-country" class="form-control" type="text">
+        <button class="btn btn-info" id = "specific-country" onclick="showSpecificCountry()">Search</button>
+        <button class="btn btn-info" id="all-countries" onclick="showCountries()">Show All</button>
+    </div>
+    
+    <table class="table table-bordered table-dark" style="opacity: 0.9;">
+        <thead  class="thead-dark">
+            <tr>
+                <th scope="col">Name</th>
+                <th scope="col">Top Level Domain</th>
+                <th scope="col">Capital</th>
+                <th scope="col">Currencies</th>
+                <th scope="col">Borders</th>
+                <th scope="col">Flag</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+
+
+</body>
+</html>
